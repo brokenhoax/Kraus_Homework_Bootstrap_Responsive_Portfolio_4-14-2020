@@ -1,0 +1,117 @@
+body {
+    color: white;
+    background: #d2b48c; 
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;}
+
+.navbar-brand {
+    font-family: 'Gilda Display', serif;
+    font-size: 2vw;
+    }
+
+.navbar {
+    font-family: 'Gilda Display', serif;
+    font-size: 1.3vw;
+}
+
+.dropdown-menu {
+    font-family: 'Gilda Display', serif;
+    font-size: 1vw;
+}
+
+.travel-header {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Gilda Display', serif;
+}
+
+.travel-header h1 p {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10%;   
+    font-family: 'Gilda Display', serif;
+    font-size: 2.5vw;
+    padding-bottom: 90px;
+}
+
+.travel-options {
+    font-family: 'Gilda Display', serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.travel-options img {
+    width: 45%;
+    padding-top: 50px;  
+}
+
+.travel-options p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 40px;
+    color: #343a40 !important;
+}
+
+.travel-pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.col-4 {
+    padding: 10px;
+}
+
+.photo {
+    float: left;
+    border-color: fuchsia;
+    border: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-grid {
+    padding-top: 150px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    position: relative;
+    
+}
+  
+.contact-grid {
+    float: left;
+    position: relative;
+    padding-top: 4%;
+    margin-left: -15px;
+    align-items: left;
+    justify-content: left;
+}
+
+.contact-grid p {
+    font-size: 3vw;
+    align-content: stretch;
+    font-family: 'Gilda Display', serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 30%;
+}
